@@ -1,15 +1,197 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: zoom-in-up 3s ease-in-out alternate,float1 3.4s ease-in 3.1s infinite alternate
+    position: absolute
+    top: 25%
+    right: 20%
+  &-2
+    animation: zoom-in-up 3s ease-in-out alternate,float1 3.4s ease-in 3.1s infinite alternate
+    position: absolute
+    top: 5%
+    right: 45%
+  &-3
+    animation: zoom-in-up 3s ease-in-out alternate,float1 3.4s ease-in 3.1s infinite alternate
+    position: absolute
+    top: 21%
+    right: 80%
+  &-4
+    animation: zoom-in-up 3s ease-in-out alternate,float1 3.4s ease-in 3.1s infinite alternate
+    position: absolute
+    top: 3%
+    right: 76%
+  &-5
+    animation: zoom-in-up 3s ease-in-out alternate,float1 3.4s ease-in 3.1s infinite alternate
     position: absolute
     top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    right: 6%        
+  &-6
+    animation: f-left 1s ease 0s normal forwards
     position: absolute
-    top: 51%
-    right: 30%
+    top: 9.2%
+    right: 6%    
+    width: 100%       
 
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/fondo-banner-principalt.png") !important    
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero
+  span
+    color: $white
+
+//tema1
+.index-dos
+  position: relative
+  z-index: 2
+
+.bloque-img-1
+  left: 50%
+  @media (max-width:500px)
+    left: 0%  
+
+.bloque-txt-1  
+  right: 42%
+  @media (max-width:500px)
+    right: 0%    
+
+.puntos-calientes-t1
+  .img-infografica.color-primario
+    .img-infografica__item
+      width: 3.5%
+    .img-infografica__item__dot:before      
+      background-color: #FECB2F
+    .img-infografica__item__dot:after
+      background-color: #FECB2F     
+    .img-infografica__item__numero
+      color:#12263F
+
+.clr-background-1
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema1/tema1-img-04.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat
+
+.margin-top1
+  margin-top: 1.5rem!important  
+
+.margin-bottom1
+  margin-bottom: 1.5rem!important 
+
+//tema2
+
+.clr-background-2
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema2/tema2-img-02.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat  
+
+.margin-l1
+  margin-left: 1rem!important  
+
+.bloque-texto-tema2-1
+  right: -362px
+  top: -34px
+  height: 212px
+  width: 71%
+  background-color: #fff  
+  p
+    color: $black
+    font-size: small
+  @media (max-width: 500px)  
+    right: 0
+    top: 11px 
+    height: 759px
+
+.bloque-texto-tema2-2
+  right: 30px
+  top: 153px
+  background-color: #ffffff00
+  p
+    color: $black
+    font-size: small
+  @media (max-width: 500px)  
+    right: 0
+    top: 11px   
+
+.tam-tarjeta-color    
+  height: 400px
+  @media (max-width:500px) 
+    height: 990px   
+
+.slyderA-img
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema2/tema2-img-05.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat  
+  border-radius: 15px
+
+  .slyder-a__tipo-b .slyder-a__btn--atrs
+    background-color: #21CBAE
+
+  .slyder-a__tipo-b .slyder-a__btn--sigt
+    background-color: #21CBAE
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs  
+    color: #AFAFAF
+    border: none
+
+  .slyder-a__bullets__item--active
+    background-color: #21CBAE !important
+    border: none
+
+  .slyder-a__bullets__item
+    background-color: #96DAD7 
+
+  .slyder-f__btn i
+      color: #EF3C79
+
+  .slyder-a__tipo-b
+    justify-content: space-between
+    top: -14px
+    width: 95%
+    left: 20px
+    @media (max-width:500px) 
+      top: 5px
+  @media (max-width:500px) 
+    background-size: cover
+    height: 1050px    
+
+.margin-slyder-1
+  top: 35px
+  position: relative
+  .lista-ul--color li > i:first-of-type 
+    color: $black
+
+
+.margin-slyder-2
+  top: -100px
+  position: relative
+
+.margin-slyder-3
+  position: relative
+  top: -134px
+
+.margin-slyder-4
+  position: relative
+  top: -108px  
+
+.margin-slyder-5
+  position: relative
+  top: -108px    
+
+.slyderF-01
+  .tarjeta.color-secundario 
+    height: 345px
+  .slyder-f__btn i
+    color: #EF3C79
+
+
+//tema3    
 
 @keyframes float1
   0%
@@ -17,3 +199,19 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes f-left 
+	0% 
+		opacity: 0
+		transform: translateX(250px)
+
+	100% 
+		opacity: 1
+		transform: translateX(0)
+
+@keyframes zoom-in-up 
+	0% 
+		transform: scale(0)
+
+	100% 
+		transform: scale(1)    

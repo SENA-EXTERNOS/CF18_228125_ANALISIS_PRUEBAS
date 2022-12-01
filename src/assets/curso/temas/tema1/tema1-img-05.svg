@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="988" height="523" viewBox="0 0 988 523">
+  <defs>
+    <filter id="Rectángulo_303334" x="0" y="0" width="988" height="523" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Rectángulo_303334-2" x="0" y="0" width="988" height="523" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.058" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_303335" x="54" y="63" width="283" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_303336" x="54" y="341" width="283" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_303335-2" x="652" y="63" width="283" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_303336-2" x="652" y="341" width="283" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_303334-3" x="398" y="202" width="193" height="120" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_906575" data-name="Grupo 906575" transform="translate(-306.376 -3755.518)">
+    <g id="Grupo_904724" data-name="Grupo 904724" transform="translate(0 190.518)">
+      <g data-type="innerShadowGroup">
+        <g transform="matrix(1, 0, 0, 1, 306.38, 3565)" filter="url(#Rectángulo_303334)">
+          <g id="Rectángulo_303334-4" data-name="Rectángulo 303334" transform="translate(9 6)" fill="rgba(238,220,165,0.36)" stroke="#fff" stroke-width="5">
+            <path d="M19,0H859A111,111,0,0,1,970,111V486a19,19,0,0,1-19,19H119A119,119,0,0,1,0,386V19A19,19,0,0,1,19,0Z" stroke="none"/>
+            <path d="M19,2.5H859A108.5,108.5,0,0,1,967.5,111V486A16.5,16.5,0,0,1,951,502.5H119A116.5,116.5,0,0,1,2.5,386V19A16.5,16.5,0,0,1,19,2.5Z" fill="none"/>
+          </g>
+        </g>
+        <path id="Rectángulo_303334-5" data-name="Rectángulo 303334" d="M19,0H859A111,111,0,0,1,970,111V486a19,19,0,0,1-19,19H119A119,119,0,0,1,0,386V19A19,19,0,0,1,19,0Z" transform="translate(315.376 3571)" fill="rgba(238,220,165,0.36)"/>
+        <g transform="matrix(1, 0, 0, 1, 306.38, 3565)" filter="url(#Rectángulo_303334-2)">
+          <path id="Rectángulo_303334-6" data-name="Rectángulo 303334" d="M19,0H859A111,111,0,0,1,970,111V486a19,19,0,0,1-19,19H119A119,119,0,0,1,0,386V19A19,19,0,0,1,19,0Z" transform="translate(9 6)" fill="#fff"/>
+        </g>
+        <g id="Rectángulo_303334-7" data-name="Rectángulo 303334" transform="translate(315.376 3571)" fill="none" stroke="#fff" stroke-width="5">
+          <path d="M19,0H859A111,111,0,0,1,970,111V486a19,19,0,0,1-19,19H119A119,119,0,0,1,0,386V19A19,19,0,0,1,19,0Z" stroke="none"/>
+          <path d="M19,2.5H859A108.5,108.5,0,0,1,967.5,111V486A16.5,16.5,0,0,1,951,502.5H119A116.5,116.5,0,0,1,2.5,386V19A16.5,16.5,0,0,1,19,2.5Z" fill="none"/>
+        </g>
+      </g>
+      <g id="Grupo_904723" data-name="Grupo 904723" transform="translate(3)">
+        <g id="Grupo_904718" data-name="Grupo 904718" transform="translate(0 21)">
+          <g transform="matrix(1, 0, 0, 1, 303.38, 3544)" filter="url(#Rectángulo_303335)">
+            <g id="Rectángulo_303335-3" data-name="Rectángulo 303335" transform="translate(63 69)" fill="#c7e0dc" stroke="#fff" stroke-width="5">
+              <path d="M19,0H214a51,51,0,0,1,51,51V83a19,19,0,0,1-19,19H50A50,50,0,0,1,0,52V19A19,19,0,0,1,19,0Z" stroke="none"/>
+              <path d="M19,2.5H214A48.5,48.5,0,0,1,262.5,51V83A16.5,16.5,0,0,1,246,99.5H50A47.5,47.5,0,0,1,2.5,52V19A16.5,16.5,0,0,1,19,2.5Z" fill="none"/>
+            </g>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 303.38, 3544)" filter="url(#Rectángulo_303336)">
+            <g id="Rectángulo_303336-3" data-name="Rectángulo 303336" transform="translate(63 347)" fill="#c7e0dc" stroke="#fff" stroke-width="5">
+              <path d="M19,0H214a51,51,0,0,1,51,51V83a19,19,0,0,1-19,19H50A50,50,0,0,1,0,52V19A19,19,0,0,1,19,0Z" stroke="none"/>
+              <path d="M19,2.5H214A48.5,48.5,0,0,1,262.5,51V83A16.5,16.5,0,0,1,246,99.5H50A47.5,47.5,0,0,1,2.5,52V19A16.5,16.5,0,0,1,19,2.5Z" fill="none"/>
+            </g>
+          </g>
+          <text id="Diseño_de_plan_de_pruebas" data-name="Diseño de plan de pruebas" transform="translate(393.376 3670)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Diseño de plan de pruebas</tspan></text>
+          <text id="Errores_Fallas" data-name="Errores/Fallas" transform="translate(442.376 3948)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Errores/Fallas</tspan></text>
+        </g>
+        <g id="Grupo_904719" data-name="Grupo 904719" transform="translate(591 21)">
+          <g transform="matrix(1, 0, 0, 1, -287.62, 3544)" filter="url(#Rectángulo_303335-2)">
+            <g id="Rectángulo_303335-4" data-name="Rectángulo 303335" transform="translate(661 69)" fill="#c7e0dc" stroke="#fff" stroke-width="5">
+              <path d="M19,0H214a51,51,0,0,1,51,51V83a19,19,0,0,1-19,19H50A50,50,0,0,1,0,52V19A19,19,0,0,1,19,0Z" stroke="none"/>
+              <path d="M19,2.5H214A48.5,48.5,0,0,1,262.5,51V83A16.5,16.5,0,0,1,246,99.5H50A47.5,47.5,0,0,1,2.5,52V19A16.5,16.5,0,0,1,19,2.5Z" fill="none"/>
+            </g>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, -287.62, 3544)" filter="url(#Rectángulo_303336-2)">
+            <g id="Rectángulo_303336-4" data-name="Rectángulo 303336" transform="translate(661 347)" fill="#c7e0dc" stroke="#fff" stroke-width="5">
+              <path d="M19,0H214a51,51,0,0,1,51,51V83a19,19,0,0,1-19,19H50A50,50,0,0,1,0,52V19A19,19,0,0,1,19,0Z" stroke="none"/>
+              <path d="M19,2.5H214A48.5,48.5,0,0,1,262.5,51V83A16.5,16.5,0,0,1,246,99.5H50A47.5,47.5,0,0,1,2.5,52V19A16.5,16.5,0,0,1,19,2.5Z" fill="none"/>
+            </g>
+          </g>
+          <text id="Experiencia_de_usuario" data-name="Experiencia de usuario" transform="translate(414.376 3670)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Experiencia de usuario</tspan></text>
+          <text id="Arquitectura_de_información" data-name="Arquitectura de información" transform="translate(392.376 3948)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Arquitectura de información</tspan></text>
+        </g>
+        <g id="Grupo_904721" data-name="Grupo 904721" transform="translate(0 3)">
+          <g id="Grupo_904720" data-name="Grupo 904720" transform="translate(940.31 3668.908)">
+            <path id="Trazado_183765" data-name="Trazado 183765" d="M0,0V24.066H289V0" transform="translate(24.066 8.092) rotate(90)" fill="none" stroke="#707070" stroke-width="1"/>
+          </g>
+          <g id="Grupo_901581" data-name="Grupo 901581" transform="translate(902.659 3813)">
+            <g id="Trazado_629072" data-name="Trazado 629072" transform="translate(-6.977) rotate(90)" fill="#fff">
+              <path d="M16.185,0h0Z" stroke="none"/>
+              <path d="M 0 0 L 16.18536186218262 0 L 0 0 Z" stroke="none" fill="#707070"/>
+            </g>
+            <path id="Trazado_183774" data-name="Trazado 183774" d="M0,0V77" transform="translate(-39.35 8.093) rotate(-90)" fill="none" stroke="#707070" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Grupo_904722" data-name="Grupo 904722" transform="translate(630.467 3680)">
+          <g id="Grupo_904720-2" data-name="Grupo 904720" transform="translate(0 0)">
+            <path id="Trazado_183765-2" data-name="Trazado 183765" d="M0,24.066V0H289V24.066" transform="translate(24.066 0) rotate(90)" fill="none" stroke="#707070" stroke-width="1"/>
+          </g>
+          <g id="Grupo_901581-2" data-name="Grupo 901581" transform="translate(24.066 136)">
+            <g id="Trazado_629072-2" data-name="Trazado 629072" transform="translate(44.627) rotate(90)" fill="#707070">
+              <path d="M16.185,0h0Z" stroke="none"/>
+              <path d="M 0 0 L 16.18536186218262 0 L 0 0 Z" stroke="none" fill="#707070"/>
+            </g>
+            <path id="Trazado_183774-2" data-name="Trazado 183774" d="M0,77V0" transform="translate(0 8.093) rotate(-90)" fill="none" stroke="#707070" stroke-width="1"/>
+          </g>
+        </g>
+        <g id="Grupo_904717" data-name="Grupo 904717" transform="translate(105 -3)">
+          <g transform="matrix(1, 0, 0, 1, 198.38, 3568)" filter="url(#Rectángulo_303334-3)">
+            <g id="Rectángulo_303334-8" data-name="Rectángulo 303334" transform="translate(407 208)" fill="#c3cfd9" stroke="#fff" stroke-width="5">
+              <path d="M19,0H124a51,51,0,0,1,51,51V83a19,19,0,0,1-19,19H50A50,50,0,0,1,0,52V19A19,19,0,0,1,19,0Z" stroke="none"/>
+              <path d="M19,2.5H124A48.5,48.5,0,0,1,172.5,51V83A16.5,16.5,0,0,1,156,99.5H50A47.5,47.5,0,0,1,2.5,52V19A16.5,16.5,0,0,1,19,2.5Z" fill="none"/>
+            </g>
+          </g>
+          <text id="Prueba" transform="translate(650.376 3835)" fill="#12263f" font-size="27" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Prueba</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

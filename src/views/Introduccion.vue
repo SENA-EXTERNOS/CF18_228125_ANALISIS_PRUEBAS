@@ -8,7 +8,15 @@
         span
           i.fas.fa-info
       h1 Introducción
-    
+
+    p.mb-4 Apreciado aprendiz, bienvenido a este componente formativo, en el cual encontrará diferentes temas orientados a las pruebas realizadas al #[i software], los procesos que conlleva y la mejor forma de hacerlas, para la puesta en marcha de los sistemas de información. Se abordan temas relacionados con la terminología asociada a los test de #[i software], en qué ambientes se llevan a cabo, así como la relación con otras actividades realizadas en el proceso de desarrollo, los objetivos propuestos para implementarlos y cumplirlos a cabalidad.       
+    p En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
+
+    .row(data-aos="zoom-out")
+      figure.mb-5.mt-3
+        .video
+         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 </template>
 
 <script>
