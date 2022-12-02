@@ -129,7 +129,7 @@ export default {
       tema: 'Enfoque de pruebas.',
       referencia:
         'Myservername.com. (2022). Página web institucional. Tutorial de Mantis Bug Tracker: Guía completa de MantisBT Issue Tracker.',
-      tipo: 'Página web',
+      tipo: 'Página web.',
       link: 'https://spa.myservername.com/mantis-bug-tracker-tutorial',
     },
     {
