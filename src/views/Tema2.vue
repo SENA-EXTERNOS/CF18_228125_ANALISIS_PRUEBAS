@@ -8,7 +8,7 @@
       h1 Contexto de la solución
 
     .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5(data-aos="fade-down-right")   
-      .bloque-texto-g__img.bloque-img-2(
+      .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img-01.svg')})`}"
       )
       .bloque-texto-g__texto.bloque-txt-2.p-3(data-aos="fade-left") 
@@ -55,7 +55,7 @@
             p Existen varias herramientas que permiten realizar la automatización de pruebas estáticas como son: #[i PMD, ChekStyle, SONAR, Simian, FindBugs, MacCaabeTest].
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema2/tema2-img-06.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/tema2-img-06.svg', alt='Texto que describa la imagen').img-slyder-1
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-2
             h3.mb-3 Herramientas para la planificación y gestión
@@ -63,35 +63,35 @@
             p Las herramientas utilizadas en la planificación y gestión son: #[i Teslink, Redmine, Trello, Mantis, HP Quality Center, IBM Rational quiality mánager, Testopia, BugZilla].
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema2/tema2-img-07.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/tema2-img-07.svg', alt='Texto que describa la imagen').img-slyder-1
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-3
             h3 Herramientas para pruebas de automatización
             p Funcionan a partir de scripts que se pueden realizar en distintos lenguajes de programación, para ejecutar herramientas de pruebas funcionales de forma automática. Las herramientas utilizadas son: #[i Selenium, QTP, SoapUI, Cucumber, IBM Rational Automation Framework].
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema2/tema2-img-08.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/tema2-img-08.svg', alt='Texto que describa la imagen').img-slyder-1
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-4
             h3.mb-3 Herramientas de pruebas de carga y rendimiento
             p Permiten llevar a cabo pruebas en las cuales se intensifique la sobrecarga de la aplicación, y así validar hasta qué nivel puede responder, se realiza sobre todo a sistemas que trabajan en tiempo real para establecer los límites de este. Las herramientas utilizadas son:  #[i Imeter, LoadUI, FunkLoad, HP Load runner].
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema2/tema2-img-09.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/tema2-img-09.svg', alt='Texto que describa la imagen').img-slyder-1
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-5
             h3.mb-3 Drivers y Stubs
             p Son miniaplicaciones o programas pequeños, diseñados para la realización de pruebas en la integración de los módulos del sistema. Los drivers permiten brindar información a los módulos que están debajo de él, es decir, funciona a un alto nivel del #[i software] y los #[i stubs] reciben información de módulos que están más arriba, por lo tanto, el trabajo realizado funciona a un nivel bajo del sistema.
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema2/tema2-img-10.svg', alt='Texto que describa la imagen')                                                   
+              img(src='@/assets/curso/temas/tema2/tema2-img-10.svg', alt='Texto que describa la imagen').img-slyder-1                                                   
 
     p.mb-0.mt-5 Por otra parte, cuando se realizan pruebas de #[i software] para identificar los riesgos del producto, la idea es anticipar las fallas de las funcionalidades y módulos del sistema para afrontar su impacto ante el cliente. 
     p.mb-4 Enfocarse en los riesgos facilita el trabajo para los controles de calidad, diseño y ejecución de pruebas, debido a que se priorizan con respecto a las fallas, también permite realizar una evaluación, e identificar áreas propensas a fallas y de alto riesgo dentro de la plataforma tecnológica.
 
     p.mb-4 Trabajar en los riesgos y tenerlos definidos con anticipación va a ayudar en muchos aspectos, como por ejemplo:    
 
-    .slyderF-01.mb-5
+    .slyderF-01.mb-5.index-dos
       SlyderF(columnas="col-lg-6 col-xl-4")
         .tarjeta.color-secundario.p-4
           .row.justify-content-center.mb-3
@@ -123,12 +123,14 @@
               img(src='@/assets/curso/temas/tema2/tema2-img-15.svg' alt='AvatarTop')
           p.text-center Aumenta la calidad del #[i software], porque se implementan herramientas menos costosas que determinan defectos en la aplicación.
 
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-1.p-md-5(data-aos="fade-down-right")   
+    .bloque-texto-g.color-acento-botones.index-dos.p-3.p-sm-1.p-md-5(data-aos="fade-down-right")   
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img-16.svg')})`}"
       )
       .bloque-texto-g__texto.p-3
         p El diseño del plan de pruebas para mantener una buena calidad del #[i software], debe prepararse con anticipación y objetividad hacia los errores o fallas que se puedan encontrar, para así contar con la solución y el tiempo requerido. Al no contar con esta planificación, es complejo determinar los tiempos y soluciones a las inconsistencias encontradas, además la inversión y recursos es mayor y más prolongada. Por lo tanto, es necesario que se tenga en cuenta, aún desde la concepción del proyecto.
+
+    img(src='@/assets/curso/temas/tema2/tema2-img-decorativa-01.svg', alt='Texto que describa la imagen').tema2-decorativa-01
 
     .row.justify-content-center.align-items-center
       .col-lg-9

@@ -92,15 +92,17 @@
       .col-lg-5
         img(src='@/assets/curso/temas/tema1/tema1-img-06.svg', alt='Texto que describa la imagen')(data-aos="fade-up") 
         
-    p.mb-3.mt-3 Además, permite:   
+    img(src='@/assets/curso/temas/tema1/tema1-img-decorativa-01.svg', alt='Texto que describa la imagen').tema1-decorativa-01      
 
-    .row.mt-3
+    p.mb-3.mt-3 Además, permite:   
+    
+    .row.slide-1.mt-3
       .col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-slide.arriba.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .tarjeta-slide__contenedor
             .tarjeta-slide__contenido.p-4.p-xl-5.align-items-center 
-              p Analizar la automatización.
+              p.text-center Analizar la automatización.
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-07.png')})`}")
 
       .col-sm-6.col-xl-4.mb-4.mb-xl-0

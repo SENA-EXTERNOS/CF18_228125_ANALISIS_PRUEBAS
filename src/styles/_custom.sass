@@ -78,6 +78,21 @@
 .margin-bottom1
   margin-bottom: 1.5rem!important 
 
+.tema1-decorativa-01
+  position: absolute
+  top: 83.3%
+  right: 43%
+  width: 30%
+  @media (max-width:500px)     
+    top: 71%
+    right: 8%
+    width: 70%
+
+.slide-1
+  .tarjeta.color-acento-contenido 
+    @media (max-width:500px)     
+      height: 200px
+
 //tema2
 
 .clr-background-2
@@ -102,8 +117,8 @@
     font-size: small
   @media (max-width: 500px)  
     right: 0
-    top: 11px 
-    height: 759px
+    top: 40px
+    height: 950px
 
 .bloque-texto-tema2-2
   right: 30px
@@ -114,12 +129,12 @@
     font-size: small
   @media (max-width: 500px)  
     right: 0
-    top: 11px   
+    top: 32px   
 
 .tam-tarjeta-color    
   height: 400px
   @media (max-width:500px) 
-    height: 990px   
+    height: 1205px   
 
 .slyderA-img
   position: relative
@@ -156,33 +171,63 @@
     width: 95%
     left: 20px
     @media (max-width:500px) 
-      top: 5px
+      top: 15px
+      left: 10px
+  .img-slyder-1
+    @media (max-width:500px) 
+      top: 15px
+      left: 81px
+      position: relative
+      width: 53%
   @media (max-width:500px) 
     background-size: cover
-    height: 1050px    
+    background-image: url("../assets/curso/temas/tema2/tema2-img-05-1.svg") 
+    height: 1000px    
 
 .margin-slyder-1
   top: 35px
   position: relative
   .lista-ul--color li > i:first-of-type 
     color: $black
+  @media (max-width:500px) 
+    top: 20px
+    width: 71%
+    left: 44px
+  
 
 
 .margin-slyder-2
   top: -100px
   position: relative
+  @media (max-width:500px) 
+    top: -32px
+    width: 50%
+    left: -20px  
+
 
 .margin-slyder-3
   position: relative
   top: -134px
+  @media (max-width:500px) 
+    top: -54px
+    width: 40%
+    left: -32px
 
 .margin-slyder-4
   position: relative
   top: -108px  
+  @media (max-width:500px) 
+    top: -135px
+    width: 60%
+    left: 7px
 
 .margin-slyder-5
   position: relative
-  top: -108px    
+  top: -108px  
+  @media (max-width:500px) 
+    top: -133px
+    width: 60%
+    left: 0px 
 
 .slyderF-01
   .tarjeta.color-secundario 
@@ -190,8 +235,173 @@
   .slyder-f__btn i
     color: #EF3C79
 
+.tema2-decorativa-01
+  position: absolute
+  top: 70.8%
+  right: 80%
+  width: 20%
+  @media (max-width:500px)     
+    top: 70.8%
+    width: 70%
+    right: 30%
 
-//tema3    
+//tema3   
+
+    
+.clr-background-3
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema3/tema3-img-03.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat      
+
+.acordionA-01
+  .tarjeta.acordeonA
+    background-color: #DFEAF1
+  .acordion__accion__btn--a
+    background-color: $white !important
+    i
+      color: #21CBAE
+  .acordion__activo
+    background-color: #fdf3e1 !important  
+
+.acordionA-02
+  .tarjeta.acordeonA
+    background-color: #DFEAF1
+  .acordion__accion__btn--a
+    background-color: $white !important
+    i
+      color: #21CBAE
+  .acordion__activo
+    background-color: #fdf3e1 !important 
+
+.puntos-calientes-t3
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema3/tema3-img-07.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat   
+
+  .img-infografica.color-primario
+    .img-infografica__item
+      width: 2.5%
+    .img-infografica__item__dot:before      
+      background-color: #FECB2F
+    .img-infografica__item__dot:after
+      background-color: #FECB2F     
+    .img-infografica__item__numero
+      color:#12263F     
+
+.acordionA-03
+  .tarjeta.acordeonA
+    background-color: #DFEAF1
+  .acordion__accion__btn--a
+    background-color: $white !important
+    i
+      color: #21CBAE
+  .acordion__activo
+    background-color: #C3CFD9 !important  
+
+.clr-background-4
+  position: relative
+  width: 100% 
+  background-image: url("../assets/curso/temas/tema3/tema3-img-11.svg") 
+  background-size: cover
+  background-position: left top
+  background-repeat: no-repeat    
+  height: 400px      
+
+.top-1
+  position: relative
+  top: 70px        
+
+.acordionA-04
+  .tarjeta.acordeonA
+    background-color: #DFEAF1
+  .acordion__accion__btn--a
+    background-color: $white !important
+    i
+      color: #21CBAE
+  .acordion__activo
+    background-color: #fdf3e1 !important   
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #0B5999
+    h4
+      color: $white
+    p
+      color: $white      
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+
+.color-txt-container
+  h2
+    color: #12263F!important
+  p
+    color: #12263F!important  
+
+.cajon.color-primario
+  background-color: #FDE5EE
+
+.color-i
+  color: #12263F!important 
+
+.tema3-decorativa-01
+  position: absolute
+  top: 6.8%
+  right: 88%
+  width: 12%
+  @media (max-width:500px)     
+    right: 54%
+    width: 46%
+
+.tema3-decorativa-02
+  position: absolute
+  top: 26.5%
+  right: 80%
+  width: 20%
+  @media (max-width:500px)     
+    top: 26%
+    right: 47%
+    width: 65%
+
+.tema3-decorativa-03
+  position: absolute
+  top: 41.4%
+  right: 0%
+  width: 15%
+  @media (max-width:500px)     
+    top: 42%
+    width: 60%
+
+
+.tema3-decorativa-04
+  position: absolute
+  top: 88.8%
+  right: 5%
+  width: 30%
+  @media (max-width:500px)     
+    top: 88.1%
+    width: 91%               
 
 @keyframes float1
   0%

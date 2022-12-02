@@ -110,32 +110,111 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Terminología relacionada con pruebas.',
+      referencia:
+        'Engineering Lifecycle Management - IBM (2021). Página web institucional. Evaluación de riesgos. Documento de trabajo. ',
+      tipo: 'Página web.',
+      link:
+        'https://www.ibm.com/docs/es/elm/6.0.2?topic=artifacts-assessing-risk',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Contexto de la solución.',
+      referencia:
+        'Software Testing Bureau. (2022). Página web institucional. Crear un buen Plan de Pruebas.',
+      tipo: 'Página web.',
+      link:
+        'https://www.softwaretestingbureau.com/crear-un-buen-plan-de-pruebas/#:~:text=El%20plan%20de%20pruebas%20tiene,cambios%20que%20tiene%20el%20proyecto',
+    },
+    {
+      tema: 'Enfoque de pruebas.',
+      referencia:
+        'Myservername.com. (2022). Página web institucional. Tutorial de Mantis Bug Tracker: Guía completa de MantisBT Issue Tracker.',
+      tipo: 'Página web',
+      link: 'https://spa.myservername.com/mantis-bug-tracker-tutorial',
+    },
+    {
+      tema: 'Enfoque de pruebas.',
+      referencia:
+        'Turrado, J. (2020). Qué son las pruebas de software. En Campusmvp, página web especializada. ',
+      tipo: 'Artículo de divulgación.',
+      link:
+        'https://www.campusmvp.es/recursos/post/que-son-las-pruebas-de-software.aspx',
+    },
+    {
+      tema: 'Enfoque de pruebas.',
+      referencia:
+        'Trans-TI. (2021). Página web institucional. <i>Software testing: Conocé el ciclo de vida de las pruebas de Software.</i>',
+      tipo: 'Página web.',
+      link:
+        'https://trans-ti.com/2021/01/11/software-testing-conoce-el-ciclo-de-vida-de-las-pruebas-de-software/ ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Bucle',
+      significado:
+        'procesos repetitivos, son instrucciones de código que se pueden ejecutar muchas veces.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Calidad',
+      significado:
+        'cualidades que caracterizan al software y a su vez identifican su utilidad y existencia en las que cumple y supera las expectativas de los usuarios.',
+    },
+    {
+      termino: 'Cobertura',
+      significado: 'cantidad o porcentaje que abarca una actividad.',
+    },
+    {
+      termino: 'Error',
+      significado:
+        'inconsistencia o problema que devuelve un resultado no deseado.',
+    },
+    {
+      termino: 'Falla',
+      significado:
+        'en la ejecución de una aplicación, se manifiesta como un defecto visible dentro de las pruebas de software.',
+    },
+    {
+      termino: 'Inspección',
+      significado:
+        'verificación que se realiza de un componente de software con el fin de que se cumplan las condiciones requeridas.',
+    },
+    {
+      termino: 'Prueba',
+      significado:
+        'proceso de evaluación y verificación de los componentes o módulos del sistema, con el fin de encontrar fallos y establecer parámetros que definan calidad en el producto.',
+    },
+    {
+      termino: 'Revisión',
+      significado:
+        'comprobación que una funcionalidad de un componente de software se ejecute correctamente.',
+    },
+    {
+      termino: '<i>Software</i>',
+      significado:
+        'conjunto de métodos u operaciones que interactúan entre sí para llevar a cabo funcionalidades que automatizan una tarea en específico.',
+    },
+    {
+      termino: 'Técnica',
+      significado:
+        'procedimientos que se llevan a cabo para obtener un resultado deseado con respecto a una funcionalidad o componente de software.',
+    },
+    {
+      termino: 'TI',
+      significado:
+        'hace referencia a tecnologías de la información, está enfocado en las aplicaciones y el hardware de computadoras. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Gomez, M., Cervantes, J. & González, P. P. (2019). <i>Fundamentos de Ingeniería de Software.</i> ',
+      link: 'https://www.academia.edu/66057456/Fundamentos_Ing_SW_VF_1_',
+    },
+    {
+      referencia:
+        'Toledo., F. (2018). ¿Qué es la cobertura de pruebas? Federico-Toledo.com',
+      link: 'https://www.federico-toledo.com/que-es-la-cobertura-de-pruebas/ ',
     },
   ],
   creditos: {
