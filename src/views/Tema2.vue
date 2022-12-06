@@ -86,7 +86,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-10.svg', alt='Texto que describa la imagen').img-slyder-1                                                   
 
-    p.mb-0.mt-5 Por otra parte, cuando se realizan pruebas de #[i software] para identificar los riesgos del producto, la idea es anticipar las fallas de las funcionalidades y módulos del sistema para afrontar su impacto ante el cliente. 
+    p.mb-3.mt-5 Por otra parte, cuando se realizan pruebas de #[i software] para identificar los riesgos del producto, la idea es anticipar las fallas de las funcionalidades y módulos del sistema para afrontar su impacto ante el cliente. 
     p.mb-4 Enfocarse en los riesgos facilita el trabajo para los controles de calidad, diseño y ejecución de pruebas, debido a que se priorizan con respecto a las fallas, también permite realizar una evaluación, e identificar áreas propensas a fallas y de alto riesgo dentro de la plataforma tecnológica.
 
     p.mb-4 Trabajar en los riesgos y tenerlos definidos con anticipación va a ayudar en muchos aspectos, como por ejemplo:    
