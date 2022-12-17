@@ -72,7 +72,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-03.svg')})`}"
       )
       .bloque-texto-g__texto.p-3
-        p.mb-0 Ahora, las pruebas involucran actividades correspondientes al diseño del plan en el que se realiza el modelo y la forma como se desarrollan, así mismo, se tiene en cuenta la localización de errores al momento de validar las funcionalidades del sistema, sin olvidar que la experiencia de usuario es de suma importancia en la etapa de pruebas, así como la arquitectura de la información en la que se debe verificar la estructura, conformación y contenido de los datos que se quieren mostrar, lo cual no debe complicar la navegación. Recuerde que no debe tener mucho contenido, debe ser fácil e intuitivo, con el fin que el usuario encuentre lo que necesita rápidamente y se sienta una plataforma amigable.
+        p.mb-0 Ahora, las pruebas involucran actividades correspondientes al diseño del plan en el que se realiza el modelo y la forma como se desarrollan, así mismo, se tiene en cuenta la localización de errores al momento de validar las funcionalidades del sistema, sin olvidar que la experiencia de usuario es de suma importancia en la etapa de pruebas, así como la arquitectura de la información en la que se debe verificar la estructura, conformación y contenido de los datos que se quieren mostrar, lo cual no debe complicar la navegación. Recuerde que no debe tener mucho contenido, debe ser fácil e intuitivo, con el fin que el usuario encuentre lo que necesita rápidamente y se sienta una plataforma amigable.<br/>
         p La siguiente figura presenta las actividades relacionadas con las pruebas.
 
     .clr-background-1
@@ -118,7 +118,12 @@
             .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-09.png')})`}")
             .tarjeta-slide__contenido.p-4.p-xl-5.align-items-center 
               p.text-center Hacer estudios en arquitectura de la información para mostrar de forma organizada y detallada, lo que los usuarios realmente quieren en una respectiva plataforma tecnológica.
-                                                                                            
+
+    .row.justify-content-center.align-items-center
+      .col-lg-9
+        .cajon.color-secundario.p-4.mt-4
+          p Un sitio o web o cualquier tipo de aplicación que se desarrolle e implemente, también debe cumplir con la utilización de programas de seguimiento de errores, para asegurar el funcionamiento óptimo del #[i software].
+
 </template>
 
 <script>

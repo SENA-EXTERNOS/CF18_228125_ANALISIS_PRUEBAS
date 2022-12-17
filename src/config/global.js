@@ -112,7 +112,7 @@ export default {
     {
       tema: 'Terminología relacionada con pruebas.',
       referencia:
-        'Engineering Lifecycle Management - IBM (2021). Página web institucional. Evaluación de riesgos. Documento de trabajo. ',
+        'Engineering Lifecycle Management - IBM (2021). Página web institucional. Evaluación de riesgos. Documento de trabajo. Consultado el 16 de noviembre de 2022. Recuperado de:   https://www.ibm.com/docs/es/elm/6.0.2?topic=artifacts-assessing-risk',
       tipo: 'Página web.',
       link:
         'https://www.ibm.com/docs/es/elm/6.0.2?topic=artifacts-assessing-risk',
@@ -120,7 +120,7 @@ export default {
     {
       tema: 'Contexto de la solución.',
       referencia:
-        'Software Testing Bureau. (2022). Página web institucional. Crear un buen Plan de Pruebas.',
+        'Software Testing Bureau. (2022). Página web institucional. Crear un buen Plan de Pruebas. Consultado el 16 de noviembre de 2022. Recuperado de: https://www.softwaretestingbureau.com/crear-un-buen-plan-de-pruebas/#:~:text=El%20plan%20de%20pruebas%20tiene,cambios%20que%20tiene%20el%20proyecto.',
       tipo: 'Página web.',
       link:
         'https://www.softwaretestingbureau.com/crear-un-buen-plan-de-pruebas/#:~:text=El%20plan%20de%20pruebas%20tiene,cambios%20que%20tiene%20el%20proyecto',
@@ -128,14 +128,14 @@ export default {
     {
       tema: 'Enfoque de pruebas.',
       referencia:
-        'Myservername.com. (2022). Página web institucional. Tutorial de Mantis Bug Tracker: Guía completa de MantisBT Issue Tracker.',
+        'Myservername.com. (2022). Página web institucional. Tutorial de Mantis Bug Tracker: Guía completa de MantisBT Issue Tracker. Consultado el 16 de noviembre de 2022. Recuperado de: https://spa.myservername.com/mantis-bug-tracker-tutorial',
       tipo: 'Página web.',
       link: 'https://spa.myservername.com/mantis-bug-tracker-tutorial',
     },
     {
       tema: 'Enfoque de pruebas.',
       referencia:
-        'Turrado, J. (2020). Qué son las pruebas de software. En Campusmvp, página web especializada. ',
+        'Turrado, J. (2020). Qué son las pruebas de software. En Campusmvp, página web especializada.  https://www.campusmvp.es/recursos/post/que-son-las-pruebas-de-software.aspx. Recuperado el 05-09-2022 ',
       tipo: 'Artículo de divulgación.',
       link:
         'https://www.campusmvp.es/recursos/post/que-son-las-pruebas-de-software.aspx',
@@ -143,7 +143,7 @@ export default {
     {
       tema: 'Enfoque de pruebas.',
       referencia:
-        'Trans-TI. (2021). Página web institucional. <i>Software testing: Conocé el ciclo de vida de las pruebas de Software.</i>',
+        'Trans-TI. (2021). Página web institucional. <i>Software testing: Conocé el ciclo de vida de las pruebas de Software.</i> Consultado el 16 de noviembre de 2022. Recuperado de: https://trans-ti.com/2021/01/11/software-testing-conoce-el-ciclo-de-vida-de-las-pruebas-de-software/',
       tipo: 'Página web.',
       link:
         'https://trans-ti.com/2021/01/11/software-testing-conoce-el-ciclo-de-vida-de-las-pruebas-de-software/ ',
@@ -158,7 +158,7 @@ export default {
     {
       termino: 'Calidad',
       significado:
-        'cualidades que caracterizan al software y a su vez identifican su utilidad y existencia en las que cumple y supera las expectativas de los usuarios.',
+        'cualidades que caracterizan al <i>software</i> y a su vez identifican su utilidad y existencia en las que cumple y supera las expectativas de los usuarios.',
     },
     {
       termino: 'Cobertura',
@@ -172,12 +172,12 @@ export default {
     {
       termino: 'Falla',
       significado:
-        'en la ejecución de una aplicación, se manifiesta como un defecto visible dentro de las pruebas de software.',
+        'en la ejecución de una aplicación, se manifiesta como un defecto visible dentro de las pruebas de <i>software</i>.',
     },
     {
       termino: 'Inspección',
       significado:
-        'verificación que se realiza de un componente de software con el fin de que se cumplan las condiciones requeridas.',
+        'verificación que se realiza de un componente de <i>software</i> con el fin de que se cumplan las condiciones requeridas.',
     },
     {
       termino: 'Prueba',
@@ -187,7 +187,7 @@ export default {
     {
       termino: 'Revisión',
       significado:
-        'comprobación que una funcionalidad de un componente de software se ejecute correctamente.',
+        'comprobación que una funcionalidad de un componente de <i>software</i> se ejecute correctamente.',
     },
     {
       termino: '<i>Software</i>',
@@ -197,18 +197,18 @@ export default {
     {
       termino: 'Técnica',
       significado:
-        'procedimientos que se llevan a cabo para obtener un resultado deseado con respecto a una funcionalidad o componente de software.',
+        'procedimientos que se llevan a cabo para obtener un resultado deseado con respecto a una funcionalidad o componente de <i>software</i>.',
     },
     {
       termino: 'TI',
       significado:
-        'hace referencia a tecnologías de la información, está enfocado en las aplicaciones y el hardware de computadoras. ',
+        'hace referencia a tecnologías de la información, está enfocado en las aplicaciones y el <i>hardware</i> de computadoras. ',
     },
   ],
   referencias: [
     {
       referencia:
-        'Gomez, M., Cervantes, J. & González, P. P. (2019). <i>Fundamentos de Ingeniería de Software.</i> ',
+        'Gómez, M., Cervantes, J. & González, P. P. (2019). <i>Fundamentos de Ingeniería de Software.</i> ',
       link: 'https://www.academia.edu/66057456/Fundamentos_Ing_SW_VF_1_',
     },
     {
