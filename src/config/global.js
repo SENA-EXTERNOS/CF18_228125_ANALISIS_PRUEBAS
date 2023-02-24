@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Análisis de pruebas',
     descripcionCurso:
       'En este componente se abordarán temas referentes a las pruebas o procesos de <i>testing</i> de <i>software</i> antes de la puesta en marcha; estas se realizan en varias etapas, las cuales determinan la usabilidad y desempeño de la aplicación, basado en la mejor experiencia de usuario, que es el enfoque y la estrategia para diseñar sistemas bien estructurados.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -21,14 +21,6 @@ export default {
       {
         clases: ['banner-principal-decorativo-4'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-5'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-6'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.svg'),
       },
     ],
   },
@@ -110,41 +102,41 @@ export default {
   },
   complementario: [
     {
-      tema: 'Terminología relacionada con pruebas.',
+      tema: 'Terminología relacionada con pruebas',
       referencia:
-        'Engineering Lifecycle Management - IBM (2021). Página web institucional. Evaluación de riesgos. Documento de trabajo. Consultado el 16 de noviembre de 2022. Recuperado de:   https://www.ibm.com/docs/es/elm/6.0.2?topic=artifacts-assessing-risk',
-      tipo: 'Página web.',
+        'Engineering Lifecycle Management – IBM. (2021). <em>Evaluación de riesgos.</em>',
+      tipo: 'Página web',
       link:
         'https://www.ibm.com/docs/es/elm/6.0.2?topic=artifacts-assessing-risk',
     },
     {
-      tema: 'Contexto de la solución.',
+      tema: 'Contexto de la solución',
       referencia:
-        'Software Testing Bureau. (2022). Página web institucional. Crear un buen Plan de Pruebas. Consultado el 16 de noviembre de 2022. Recuperado de: https://www.softwaretestingbureau.com/crear-un-buen-plan-de-pruebas/#:~:text=El%20plan%20de%20pruebas%20tiene,cambios%20que%20tiene%20el%20proyecto.',
-      tipo: 'Página web.',
+        'Software Testing Bureau. (2022). <em>Crear un buen Plan de Pruebas.</em> ',
+      tipo: 'Página web',
       link:
         'https://www.softwaretestingbureau.com/crear-un-buen-plan-de-pruebas/#:~:text=El%20plan%20de%20pruebas%20tiene,cambios%20que%20tiene%20el%20proyecto',
     },
     {
-      tema: 'Enfoque de pruebas.',
+      tema: 'Enfoque de pruebas',
       referencia:
-        'Myservername.com. (2022). Página web institucional. Tutorial de Mantis Bug Tracker: Guía completa de MantisBT Issue Tracker. Consultado el 16 de noviembre de 2022. Recuperado de: https://spa.myservername.com/mantis-bug-tracker-tutorial',
-      tipo: 'Página web.',
+        'Myservername.com. (2022). <em>Tutorial de Mantis Bug Tracker: Guía completa de MantisBT Issue Tracker.</em>',
+      tipo: 'Página web',
       link: 'https://spa.myservername.com/mantis-bug-tracker-tutorial',
     },
     {
-      tema: 'Enfoque de pruebas.',
+      tema: 'Enfoque de pruebas',
       referencia:
-        'Turrado, J. (2020). Qué son las pruebas de software. En Campusmvp, página web especializada.  https://www.campusmvp.es/recursos/post/que-son-las-pruebas-de-software.aspx. Recuperado el 05-09-2022 ',
-      tipo: 'Artículo de divulgación.',
+        'Turrado, J. (2020). <em>Qué son las pruebas de software</em>. ',
+      tipo: 'Artículo de divulgación',
       link:
         'https://www.campusmvp.es/recursos/post/que-son-las-pruebas-de-software.aspx',
     },
     {
-      tema: 'Enfoque de pruebas.',
+      tema: 'Enfoque de pruebas',
       referencia:
-        'Trans-TI. (2021). Página web institucional. <i>Software testing: Conocé el ciclo de vida de las pruebas de Software.</i> Consultado el 16 de noviembre de 2022. Recuperado de: https://trans-ti.com/2021/01/11/software-testing-conoce-el-ciclo-de-vida-de-las-pruebas-de-software/',
-      tipo: 'Página web.',
+        'Trans-TI. (2021). <em>Software testing: Conocé el ciclo de vida de las pruebas de Software.</em>',
+      tipo: 'Página web',
       link:
         'https://trans-ti.com/2021/01/11/software-testing-conoce-el-ciclo-de-vida-de-las-pruebas-de-software/ ',
     },
@@ -213,7 +205,7 @@ export default {
     },
     {
       referencia:
-        'Toledo., F. (2018). ¿Qué es la cobertura de pruebas? Federico-Toledo.com',
+        'Toledo., F. (2018). <em>¿Qué es la cobertura de pruebas?</em> ',
       link: 'https://www.federico-toledo.com/que-es-la-cobertura-de-pruebas/ ',
     },
   ],

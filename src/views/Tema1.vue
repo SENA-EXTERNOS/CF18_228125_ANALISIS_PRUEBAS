@@ -7,12 +7,12 @@
         span 1
       h1 Terminología relacionada con pruebas
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5    
+    .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5.mb-4   
       .bloque-texto-g__img.bloque-img-1(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-01.svg')})`}"
       )(data-aos="flip-right")
       .bloque-texto-g__texto.bloque-txt-1.p-2(data-aos="fade-left")
-        p.mb-0 #[b Existen definiciones y terminologías asociadas a las pruebas de #[i software] que enmarcan los conocimientos, acontecimientos y prácticas que se realizan para la puesta en marcha de este, luego de la fase de producción o creación del producto que determina la solución a las necesidades del cliente, a partir de los requerimientos establecidos y solicitados. La realización de pruebas se hace con base en la búsqueda de errores generados en los sistemas desarrollados, no solo con el fin de determinar el buen funcionamiento del sistema y pensar que está listo para la puesta en marcha, sino que todo aplicativo desarrollado genera errores de cualquier índole, por lo tanto, es indispensable tenerlo presente y realizar las pruebas correspondientes.]
+        p.mb-0 Existen definiciones y terminologías asociadas a las pruebas de #[i software] que enmarcan los conocimientos, acontecimientos y prácticas que se realizan para la puesta en marcha de este, luego de la fase de producción o creación del producto que determina la solución a las necesidades del cliente, a partir de los requerimientos establecidos y solicitados. La realización de pruebas se hace con base en la búsqueda de errores generados en los sistemas desarrollados, no solo con el fin de determinar el buen funcionamiento del sistema y pensar que está listo para la puesta en marcha, sino que todo aplicativo desarrollado genera errores de cualquier índole, por lo tanto, es indispensable tenerlo presente y realizar las pruebas correspondientes.
           
     p.mt-3 A continuación, conozca algunas de las terminologías más utilizadas al realizar pruebas de #[i software]:
 
@@ -72,23 +72,23 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-03.svg')})`}"
       )
       .bloque-texto-g__texto.p-3
-        p.mb-0 Ahora, las pruebas involucran actividades correspondientes al diseño del plan en el que se realiza el modelo y la forma como se desarrollan, así mismo, se tiene en cuenta la localización de errores al momento de validar las funcionalidades del sistema, sin olvidar que la experiencia de usuario es de suma importancia en la etapa de pruebas, así como la arquitectura de la información en la que se debe verificar la estructura, conformación y contenido de los datos que se quieren mostrar, lo cual no debe complicar la navegación. Recuerde que no debe tener mucho contenido, debe ser fácil e intuitivo, con el fin que el usuario encuentre lo que necesita rápidamente y se sienta una plataforma amigable.<br/>
+        p.mb-0 Ahora bien, las pruebas involucran actividades correspondientes al diseño del plan en el que se realiza el modelo y la forma como se desarrollan; así mismo, se tiene en cuenta la localización de errores al momento de validar las funcionalidades del sistema, sin olvidar que la experiencia de usuario es de suma importancia en la etapa de pruebas, así como la arquitectura de la información en la que se debe verificar la estructura, conformación y contenido de los datos que se quieren mostrar, lo cual no debe complicar la navegación. Recuerde que no debe tener mucho contenido, debe ser fácil e intuitivo, con la finalidad que el usuario encuentre lo que necesita rápidamente y se sienta en una plataforma amigable.<br/>
         p La siguiente figura presenta las actividades relacionadas con las pruebas.
 
     .clr-background-1
       .row.justify-content-around.align-items-center.mt-5 
         .col-lg-10
           .titulo-sexto.color-primario.margin-top1
-            h5 Figura 1.   
-            span Actividades relacionadas con las pruebas.
+            h5.mb-0 Figura 1   
+            p.mb-0 #[em Actividades relacionadas con las pruebas].
       .row.justify-content-around.align-items-center
         .col-lg-9.margin-bottom1
           img(src='@/assets/curso/temas/tema1/tema1-img-05.svg', alt='Texto que describa la imagen')   
 
     .row.justify-content-around.align-items-center.mt-5 
       .col-lg-7
-        p.mb-3 Las pruebas que se desarrollan en cada uno de los proyectos de #[i software] tienen como objetivo encontrar la mayor cantidad posible de errores en cada uno de los módulos o secciones del sistema, con el fin de realizar la retroalimentación para que se corrijan las fallas encontradas, proponiendo posibles soluciones. 
-        p El departamento de QA (#[i Quality Assurance]) realiza pruebas a las plataformas tecnológicas, con el fin de determinar su funcionamiento de forma eficiente y eficaz, por ende, es necesario que esta área realice los distintos planes para realizar pruebas y así dirigir a cabalidad cada esfuerzo de la operación en la metodología utilizada.
+        p.mb-3 Las pruebas que se desarrollan en cada uno de los proyectos de #[em software], tienen como objetivo encontrar la mayor cantidad posible de errores en cada uno de los módulos o secciones del sistema, con el fin de realizar la retroalimentación oportuna para que se corrijan las fallas encontradas, aportando posibles soluciones.
+        p El departamento de QA (Quality Assurance) realiza pruebas a las plataformas tecnológicas, con el fin de determinar su funcionamiento de forma eficiente y eficaz, por ende, es necesario que esta área realice los distintos planes para ejecutar pruebas y así dirigir a cabalidad cada esfuerzo de la operación en la metodología utilizada.
       .col-lg-5
         img(src='@/assets/curso/temas/tema1/tema1-img-06.svg', alt='Texto que describa la imagen')(data-aos="fade-up") 
         

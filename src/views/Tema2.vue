@@ -7,19 +7,18 @@
         span 2
       h1 Contexto de la solución
 
-    .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5(data-aos="fade-down-right")   
+    .bloque-texto-g.color-secundario.p-3.p-sm-1.p-md-5.mb-5(data-aos="fade-down-right")   
       .bloque-texto-g__img.bloque-img-t2(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img-01.svg')})`}"
       )
       .bloque-texto-g__texto.bloque-txt-2.p-3(data-aos="fade-left") 
-        p Las pruebas son esenciales en cualquier proyecto de #[i software], permiten tener mejores resultados al desarrollar aplicaciones, y de esto depende que los clientes o usuarios estén satisfechos con la solución, hacer las pruebas respectivas implica encontrar errores y evitar pérdidas luego de la puesta en marcha. Los probadores deben regirse a partir de los requerimientos funcionales y no funcionales del #[i software] para encontrar defectos, y a partir de ellos, se deben elegir requisitos comprobables de las pruebas. Las aplicaciones solo están listas para la pruebas cuando se hayan terminado las fases anteriores a esta, luego se debe diligenciar la documentación respectiva de los resultados esperados con los reales, en los que se hayan detectado daños y errores. 
+        p Las pruebas son esenciales en cualquier proyecto de #[em software], permiten tener mejores resultados al desarrollar aplicaciones, y de esto depende que los clientes o usuarios estén satisfechos con la solución; hacer los ensayos respectivos implica encontrar errores y evitar pérdidas luego de la puesta en marcha. Los probadores deben regirse a partir de los requerimientos funcionales y no funcionales del #[em software], para encontrar defectos y, a partir de estos, se deben elegir requisitos comprobables de las pruebas. Las aplicaciones solo están listas para las pruebas cuando se hayan terminado las fases anteriores a esta, luego se debe diligenciar la documentación respectiva de los resultados esperados con los reales, en los que se hayan detectado daños y errores.
+
+    p Las pruebas deben realizarse luego de la culminación de la implementación y también después de cada corrección, porque:
 
     .clr-background-2.mb-3
-      .row.justify-content-around.align-items-center.mt-5 
-        .col-lg-12
-          p.margin-top1.margin-l1 Las pruebas deben realizarse luego de la culminación de la implementación y también después de cada corrección, porque:
       .row.justify-content-around.align-items-center
-        .col-lg-10.margin-bottom1
+        .col-lg-10.margin-bottom1.pt-4
           img(src='@/assets/curso/temas/tema2/tema2-img-03.svg', alt='Texto que describa la imagen')   
 
     .row.justify-content-around.aling-items-center.mt-5
@@ -29,7 +28,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img-04.svg')})`}"
           )(data-aos="zoom-out-right") 
           .bloque-texto-g__texto.bloque-texto-tema2-1.p-3
-            p.mb-0 #[b Es así como la metodología utilizada en el proceso de desarrollo de #[i software], requiere tener limitaciones en la determinación de cada uno de los procedimientos. Hay una fase en la cual se planifican y otra que llevan a cabo, teniendo las restricciones requeridas, es en este aspecto en el cual se visualizan los alcances del #[i software], con la necesidad de hallar falencias y errores en todo el programa; esto ayuda a corregirlos antes de la etapa de producción, en la cual saldría costoso y con un riesgo enorme de pérdidas económicas y de otros tipos.]
+            p.mb-0 Es así como la metodología utilizada en el proceso de desarrollo de #[i software], requiere tener limitaciones en la determinación de cada uno de los procedimientos. Hay una fase en la cual se planifican y otra que llevan a cabo, teniendo las restricciones requeridas, es en este aspecto en el cual se visualizan los alcances del #[i software], con la necesidad de hallar falencias y errores en todo el programa; esto ayuda a corregirlos antes de la etapa de producción, en la cual saldría costoso y con un riesgo enorme de pérdidas económicas y de otros tipos.
           .bloque-texto-g__texto.bloque-texto-tema2-2.p-4
             p.mb-0 Los sistemas de información, por muy sencillos que sean, tienen una gran cantidad de niveles o casos de pruebas, las cuales deben ser planificadas, administradas, ejecutadas y sobre todo, utilizar tecnologías y herramientas para realizar pruebas automatizadas. Estas tecnologías utilizadas para llevar a cabo las pruebas, ayudan a que el #[i software] obtenga la calidad deseada y los recursos sean manejados eficientemente.
 
@@ -41,7 +40,7 @@
           .col-md-5.mb-md-0.margin-slyder-1
             h3.mb-2 Herramientas para pruebas estáticas
             p.mb-2 Permiten la detección de fallas y defectos al inicio del proyecto. Algunos tipos son:
-            ul.lista-ul--color.mb-2
+            ul.lista-ul--color.tema-2.mb-2
               li.mb-0
                 i.fas.fa-circle.fa-xs
                 | Herramientas de revisión: utilizadas para informar o dar a conocer comentarios sobre las revisiones e informes sobre fallas encontradas.
@@ -51,26 +50,28 @@
               li.mb-0
                 i.fas.fa-circle.fa-xs
                 p.mb-0 Herramientas de modelado: permiten verificar y contemplar los modelos del #[i software] como la información de una base de datos relacional en la consecución de inestabilidades, inconsistencias y defectos.
-           
             p Existen varias herramientas que permiten realizar la automatización de pruebas estáticas como son: #[i PMD, ChekStyle, SONAR, Simian, FindBugs, MacCaabeTest].
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-06.svg', alt='Texto que describa la imagen').img-slyder-1
+        
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-2
             h3.mb-3 Herramientas para la planificación y gestión
             p.mb-3 Están relacionadas con la documentación de las pruebas, mantenimiento y gestión de resultados de estas tareas, en este caso, permiten documentar, analizar y gestionar las debilidades e incidencias en el proyecto de desarrollo.
-            p Las herramientas utilizadas en la planificación y gestión son: #[i Teslink, Redmine, Trello, Mantis, HP Quality Center, IBM Rational quiality mánager, Testopia, BugZilla].
+            p Las herramientas utilizadas en la planificación y gestión son: Teslink, Redmine, Trello, Mantis, HP Quality Center, IBM Rational quiality mánager, Testopia, BugZilla.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-07.svg', alt='Texto que describa la imagen').img-slyder-1
+        
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-3
             h3 Herramientas para pruebas de automatización
-            p Funcionan a partir de #[i scripts] que se pueden realizar en distintos lenguajes de programación, para ejecutar herramientas de pruebas funcionales de forma automática. Las herramientas utilizadas son: #[i Selenium, QTP, SoapUI, Cucumber, IBM Rational Automation Framework].
+            p Funcionan a partir de #[em scripts]  que se pueden realizar en distintos lenguajes de programación, para ejecutar herramientas de pruebas funcionales de forma automática. Las herramientas utilizadas son: Selenium, QTP, SoapUI, Cucumber, IBM Rational Automation Framework.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-08.svg', alt='Texto que describa la imagen').img-slyder-1
+        
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-4
             h3.mb-3 Herramientas de pruebas de carga y rendimiento
@@ -78,10 +79,11 @@
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-09.svg', alt='Texto que describa la imagen').img-slyder-1
+        
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-5
-            h3.mb-3 #[i Drivers y Stubs]
-            p Son miniaplicaciones o programas pequeños, diseñados para la realización de pruebas en la integración de los módulos del sistema. Los drivers permiten brindar información a los módulos que están debajo de él, es decir, funciona a un alto nivel del #[i software] y los #[i stubs] reciben información de módulos que están más arriba, por lo tanto, el trabajo realizado funciona a un nivel bajo del sistema.
+            h3.mb-3 #[em Drivers y Stubs]
+            p Son miniaplicaciones o programas pequeños, diseñados para la realización de pruebas en la integración de los módulos del sistema. Los #[em drivers] permiten brindar información a los módulos que están debajo de él, es decir, funciona a un alto nivel del #[em software] y los #[em stubs] reciben información de módulos que están más arriba; por lo tanto, el trabajo realizado, funciona a un nivel bajo del sistema.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-10.svg', alt='Texto que describa la imagen').img-slyder-1                                                   
