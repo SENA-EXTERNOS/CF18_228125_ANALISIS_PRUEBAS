@@ -32,7 +32,7 @@
         .col-lg-9.margin-bottom1
           img(src='@/assets/curso/temas/tema3/tema3-img-04.svg', alt='Texto que describa la imagen')           
 
-    p.mt-4 En los niveles de desarrollo deben realizar una prueba por cada nivel, en este sentido, el encargado de realizarlas debe constatar que se cumpla con la calidad del #[i software], para lo cual existe verificación y validación en todo el proceso.
+    p.mt-4 En los niveles de desarrollo deben realizar una prueba por cada nivel, en este sentido, el encargado de realizarlas debe constatar que se cumpla con la calidad del #[em software], para lo cual existe verificación y validación en todo el proceso.
     p.mt-3 Se amplía la información sobre algunas de estas pruebas:
 
     .row.aling-items-center.mt-5
@@ -43,10 +43,10 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             .row(titulo="Verificación y validación (VyV)")
               .col-md-12.mb-4.mb-md-0
-                p La validación consiste en que los requerimientos solicitados por el cliente se cumplan a cabalidad, por su parte, la verificación es la que determina si los procesos de implementación del #[i software] cumplen con las funcionalidades o funcionalidad específica. En los procesos VyV existen una serie de actividades que permiten dar calidad; además de las pruebas, se tienen en cuenta las revisiones técnicas, simulación, revisiones periódicas y documentación, entre otras.                
+                p La validación consiste en que los requerimientos solicitados por el cliente se cumplan a cabalidad, por su parte, la verificación es la que determina si los procesos de implementación del #[em software] cumplen con las funcionalidades o funcionalidad específica. En los procesos VyV existen una serie de actividades que permiten dar calidad; además de las pruebas, se tienen en cuenta las revisiones técnicas, simulación, revisiones periódicas y documentación, entre otras.                
             .row(titulo="Pruebas unitarias o de componentes")
               .col-md-12.mb-4.mb-md-0
-                p Son pruebas que se realizan de forma individual a cada componente del #[i software], funcionalidad o fragmento de código; cada unidad es invocada desde una clase o componente externo para formar el #[i software], por lo tanto, cada una debe ser funcionalmente independiente. El desarrollador es quien debe realizar estas pruebas, porque es el más idóneo e implementó el módulo o componente del sistema, por lo tanto, conoce la estructura generada.
+                p Son pruebas que se realizan de forma individual a cada componente del #[em software], funcionalidad o fragmento de código; cada unidad es invocada desde una clase o componente externo para formar el #[em software], por lo tanto, cada una debe ser funcionalmente independiente. El desarrollador es quien debe realizar estas pruebas, porque es el más idóneo e implementó el módulo o componente del sistema, por lo tanto, conoce la estructura generada.
             .row(titulo="Pruebas de integración")
               .col-md-12.mb-4.mb-md-0
                 p Estas pruebas son necesarias para constatar que los componentes o módulos del sistema, pueden funcionar correctamente acoplados e integrados, debido a que pueden ocurrir imprevistos o errores no contemplados. Este tipo de pruebas verifican el funcionamiento, consolidación e interacción entre partes del sistema, ya sea con el sistema operativo, el #[em hardware] en el cual se está corriendo, y las interfaces en el sistema.
@@ -92,11 +92,11 @@
 
             .tarjeta.color-acento-contenido.p-3(x="5.5%" y="47%" numero="+")
               h4 Pruebas de aceptación del contrato
-              p.mb-0 Se validan los datos e información del contrato y los requerimientos ahí establecidos, pueden ocurrir casos en que no se cumpla esas condiciones y al realizar las pruebas por parte del cliente, surjan errores en el #[i software].
+              p.mb-0 Se validan los datos e información del contrato y los requerimientos ahí establecidos, pueden ocurrir casos en que no se cumpla esas condiciones y al realizar las pruebas por parte del cliente, surjan errores en el #[em software].
 
             .tarjeta.color-acento-contenido.p-3(x="39.2%" y="47%" numero="+")
               h4 Pruebas de aceptación del usuario
-              p.mb-0 Consiste en realizar pruebas con el usuario final de la plataforma tecnológica, porque ocurre que, en muchos casos, cuando se lleva a cabo la implantación del #[i software], algunos usuarios no contemplan una o varias funcionalidades, mientras que otros sí dan la aceptación.
+              p.mb-0 Consiste en realizar pruebas con el usuario final de la plataforma tecnológica, porque ocurre que, en muchos casos, cuando se lleva a cabo la implantación del #[em software], algunos usuarios no contemplan una o varias funcionalidades, mientras que otros sí dan la aceptación.
 
             .tarjeta.color-acento-contenido.p-3(x="73.2%" y="47%" numero="+")
               h4 Pruebas de operativas
@@ -105,7 +105,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-9
         .cajon.color-acento-botones.p-4.mt-4
-          p Existen diversas metodologías para realizar pruebas de #[i software] con la calidad deseada, pueden ser estáticas, dinámicas o basadas en la experiencia.
+          p.mb-0 Existen diversas metodologías para realizar pruebas de #[em software] con la calidad deseada, pueden ser estáticas, dinámicas o basadas en la experiencia.
 
     img(src='@/assets/curso/temas/tema3/tema3-img-decorativa-03.svg', alt='Texto que describa la imagen').tema3-decorativa-03
 
@@ -121,13 +121,13 @@
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
             .row(titulo="Análisis estático")
               .col-md-12.mb-4.mb-md-0
-                p No se realiza ejecución del #[i software], si no, para encontrar fallas en el código fuente del sistema, por lo tanto, se hace necesario hacer uso de herramientas para analizar el código de la aplicación, con el fin de encontrar errores en la implementación. Los defectos más comunes hallados son relacionados con interfaces inconsistentes entre módulos, código inaccesible y sin lógica, entre otros.
+                p No se realiza ejecución del #[em software], si no, para encontrar fallas en el código fuente del sistema, por lo tanto, se hace necesario hacer uso de herramientas para analizar el código de la aplicación, con el fin de encontrar errores en la implementación. Los defectos más comunes hallados son relacionados con interfaces inconsistentes entre módulos, código inaccesible y sin lógica, entre otros.
             .row(titulo="Revisiones")
               .col-md-12.mb-4.mb-md-0
                 p Se realizan con el fin de establecer correcciones a las fallas encontradas de una forma temprana, lo que implica reducción en costes de tiempo y dinero. En este ámbito se pueden encontrar los defectos en requisitos, en el diseño e interfaces incorrectas.
             .row(titulo="Inspección")
               .col-md-12.mb-4.mb-md-0
-                p Se realiza sobre los documentos del proyecto para validar el cumplimiento de estándares de calidad del #[i software], es realizado por varios entes como revisor, escriba y moderador, personas encargadas y responsables de las revisiones o inspecciones del producto.
+                p Se realiza sobre los documentos del proyecto para validar el cumplimiento de estándares de calidad del #[em software], es realizado por varios entes como revisor, escriba y moderador, personas encargadas y responsables de las revisiones o inspecciones del producto.
 
     h3.mt-5 Pruebas dinámicas
     .row.aling-items-center.mt-4
@@ -199,7 +199,7 @@
     h3.mt-5 Cobertura
     .row.aling-items-center.mt-4
       .col-lg-8
-        p Se conoce como medida para la calidad de las pruebas e indica la cantidad de código del programa que se ha probado. La cobertura indica lo que abarca cada una de las tareas, se basa en criterios de los cuales se contiene uno al otro y así, se generaliza con respecto a los casos probados, componentes o funcionalidades del #[i software]. La cobertura permite conocer las medidas por las cuales se examina un sistema de información, con las pruebas que se realizan de acuerdo con criterios de calidad establecidos.
+        p Se conoce como medida para la calidad de las pruebas e indica la cantidad de código del programa que se ha probado. La cobertura indica lo que abarca cada una de las tareas, se basa en criterios de los cuales se contiene uno al otro y así, se generaliza con respecto a los casos probados, componentes o funcionalidades del #[em software]. La cobertura permite conocer las medidas por las cuales se examina un sistema de información, con las pruebas que se realizan de acuerdo con criterios de calidad establecidos.
       .col-lg-3
         img(src='@/assets/curso/temas/tema3/tema3-img-16.svg', alt='Texto que describa la imagen')(data-aos="zoom-out-left")
 
@@ -208,7 +208,7 @@
       .col-lg-3
         img(src='@/assets/curso/temas/tema3/tema3-img-17.svg', alt='Texto que describa la imagen')(data-aos="zoom-out-right")
       .col-lg-8
-        p Realizar mediciones sobre las pruebas a los módulos o componentes de #[i software] son determinantes en la definición de la calidad del sistema que se construye, con esto se estiman los errores y fallos encontrados en la fase de pruebas del programa. Si no se cuenta con las métricas en los procesos de casos de pruebas, no es específico ni objetivo el proceso, porque no se determinan ni se cuantifican las tareas realizadas. Por el contrario, al contar con datos cuando se llevan a cabo, se establecen lineamientos y cifras exactas a través de cada proceso que se puso en marcha en esa fase, como por ejemplo, cantidad de pruebas realizadas sobre los distintos módulos, cantidad de errores encontrados por funcionalidad, faltantes por llevarse a cabo, cantidad de resultados nulos, fallas o completas.
+        p Realizar mediciones sobre las pruebas a los módulos o componentes de #[em software] son determinantes en la definición de la calidad del sistema que se construye, con esto se estiman los errores y fallos encontrados en la fase de pruebas del programa. Si no se cuenta con las métricas en los procesos de casos de pruebas, no es específico ni objetivo el proceso, porque no se determinan ni se cuantifican las tareas realizadas. Por el contrario, al contar con datos cuando se llevan a cabo, se establecen lineamientos y cifras exactas a través de cada proceso que se puso en marcha en esa fase, como por ejemplo, cantidad de pruebas realizadas sobre los distintos módulos, cantidad de errores encontrados por funcionalidad, faltantes por llevarse a cabo, cantidad de resultados nulos, fallas o completas.
     
     img.mb-3(src='@/assets/curso/temas/tema3/tema3-img-decorativa-04.svg', alt='Texto que describa la imagen').tema3-decorativa-04
 
@@ -236,7 +236,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-9
         .cajon.color-primario.p-4
-          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, en el cual encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, en el cual encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
 

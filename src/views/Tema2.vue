@@ -28,9 +28,9 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img-04.svg')})`}"
           )(data-aos="zoom-out-right") 
           .bloque-texto-g__texto.bloque-texto-tema2-1.p-3
-            p.mb-0 Es así como la metodología utilizada en el proceso de desarrollo de #[i software], requiere tener limitaciones en la determinación de cada uno de los procedimientos. Hay una fase en la cual se planifican y otra que llevan a cabo, teniendo las restricciones requeridas, es en este aspecto en el cual se visualizan los alcances del #[i software], con la necesidad de hallar falencias y errores en todo el programa; esto ayuda a corregirlos antes de la etapa de producción, en la cual saldría costoso y con un riesgo enorme de pérdidas económicas y de otros tipos.
+            p.mb-0 Es así como la metodología utilizada en el proceso de desarrollo de #[em software], requiere tener limitaciones en la determinación de cada uno de los procedimientos. Hay una fase en la cual se planifican y otra que llevan a cabo, teniendo las restricciones requeridas, es en este aspecto en el cual se visualizan los alcances del #[em software], con la necesidad de hallar falencias y errores en todo el programa; esto ayuda a corregirlos antes de la etapa de producción, en la cual saldría costoso y con un riesgo enorme de pérdidas económicas y de otros tipos.
           .bloque-texto-g__texto.bloque-texto-tema2-2.p-4
-            p.mb-0 Los sistemas de información, por muy sencillos que sean, tienen una gran cantidad de niveles o casos de pruebas, las cuales deben ser planificadas, administradas, ejecutadas y sobre todo, utilizar tecnologías y herramientas para realizar pruebas automatizadas. Estas tecnologías utilizadas para llevar a cabo las pruebas, ayudan a que el #[i software] obtenga la calidad deseada y los recursos sean manejados eficientemente.
+            p.mb-0 Los sistemas de información, por muy sencillos que sean, tienen una gran cantidad de niveles o casos de pruebas, las cuales deben ser planificadas, administradas, ejecutadas y sobre todo, utilizar tecnologías y herramientas para realizar pruebas automatizadas. Estas tecnologías utilizadas para llevar a cabo las pruebas, ayudan a que el #[em software] obtenga la calidad deseada y los recursos sean manejados eficientemente.
 
     p.mt-4.mb-4 Existe gran variedad de herramientas que se utilizan para la gestión de estas tareas, conozca algunas de ellas:
 
@@ -49,8 +49,8 @@
                 | Análisis estático: permiten distinguir y encontrar errores en el código antes de llevar a cabo las pruebas dinámicas; ejecutan estructuras para la codificación, análisis y dependencias.
               li.mb-0
                 i.fas.fa-circle.fa-xs
-                p.mb-0 Herramientas de modelado: permiten verificar y contemplar los modelos del #[i software] como la información de una base de datos relacional en la consecución de inestabilidades, inconsistencias y defectos.
-            p Existen varias herramientas que permiten realizar la automatización de pruebas estáticas como son: #[i PMD, ChekStyle, SONAR, Simian, FindBugs, MacCaabeTest].
+                p.mb-0 Herramientas de modelado: permiten verificar y contemplar los modelos del #[em software] como la información de una base de datos relacional en la consecución de inestabilidades, inconsistencias y defectos.
+            p Existen varias herramientas que permiten realizar la automatización de pruebas estáticas como son: #[em PMD, ChekStyle, SONAR, Simian, FindBugs, MacCaabeTest].
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-06.svg', alt='Texto que describa la imagen').img-slyder-1
@@ -75,7 +75,7 @@
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-5.mb-4.mb-md-0.margin-slyder-4
             h3.mb-3 Herramientas de pruebas de carga y rendimiento
-            p Permiten llevar a cabo pruebas en las cuales se intensifique la sobrecarga de la aplicación, y así validar hasta qué nivel puede responder, se realiza sobre todo a sistemas que trabajan en tiempo real para establecer los límites de este. Las herramientas utilizadas son:  #[i Imeter, LoadUI, FunkLoad, HP Load runner].
+            p Permiten llevar a cabo pruebas en las cuales se intensifique la sobrecarga de la aplicación, y así validar hasta qué nivel puede responder, se realiza sobre todo a sistemas que trabajan en tiempo real para establecer los límites de este. Las herramientas utilizadas son:  #[em Imeter, LoadUI, FunkLoad, HP Load runner].
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-09.svg', alt='Texto que describa la imagen').img-slyder-1
@@ -88,7 +88,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/tema2-img-10.svg', alt='Texto que describa la imagen').img-slyder-1                                                   
 
-    p.mb-0.mt-5 Por otra parte, cuando se realizan pruebas de #[i software] para identificar los riesgos del producto, la idea es anticipar las fallas de las funcionalidades y módulos del sistema para afrontar su impacto ante el cliente. 
+    p.mb-0.mt-5 Por otra parte, cuando se realizan pruebas de #[em software] para identificar los riesgos del producto, la idea es anticipar las fallas de las funcionalidades y módulos del sistema para afrontar su impacto ante el cliente. 
     p.mb-5 Enfocarse en los riesgos facilita el trabajo para los controles de calidad, diseño y ejecución de pruebas, debido a que se priorizan con respecto a las fallas, también permite realizar una evaluación, e identificar áreas propensas a fallas y de alto riesgo dentro de la plataforma tecnológica.
 
     p.mb-5 Trabajar en los riesgos y tenerlos definidos con anticipación va a ayudar en muchos aspectos, como por ejemplo:    
@@ -123,21 +123,21 @@
           .row.justify-content-center.mb-3
             .col-8
               img(src='@/assets/curso/temas/tema2/tema2-img-15.svg' alt='AvatarTop')
-          p.text-center Aumenta la calidad del #[i software], porque se implementan herramientas menos costosas que determinan defectos en la aplicación.
+          p.text-center Aumenta la calidad del #[em software], porque se implementan herramientas menos costosas que determinan defectos en la aplicación.
 
     .bloque-texto-g.color-acento-botones.index-dos.p-3.p-sm-1.p-md-5(data-aos="fade-down-right")   
       .bloque-texto-g__img.img-t2(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/tema2-img-16.svg')})`}"
       )
       .bloque-texto-g__texto.p-3
-        p El diseño del plan de pruebas para mantener una buena calidad del #[i software], debe prepararse con anticipación y objetividad hacia los errores o fallas que se puedan encontrar, para así contar con la solución y el tiempo requerido. Al no contar con esta planificación, es complejo determinar los tiempos y soluciones a las inconsistencias encontradas, además la inversión y recursos es mayor y más prolongada. Por lo tanto, es necesario que se tenga en cuenta, aún desde la concepción del proyecto.
+        p El diseño del plan de pruebas para mantener una buena calidad del #[em software], debe prepararse con anticipación y objetividad hacia los errores o fallas que se puedan encontrar, para así contar con la solución y el tiempo requerido. Al no contar con esta planificación, es complejo determinar los tiempos y soluciones a las inconsistencias encontradas, además la inversión y recursos es mayor y más prolongada. Por lo tanto, es necesario que se tenga en cuenta, aún desde la concepción del proyecto.
 
     img(src='@/assets/curso/temas/tema2/tema2-img-decorativa-01.svg', alt='Texto que describa la imagen').tema2-decorativa-01
 
     .row.justify-content-center.align-items-center
       .col-lg-9
         .cajon.color-acento-contenido.p-4.mt-4
-          p La gestión de la calidad es un componente de solución de #[i software] que junto a las distintas actividades que se realizan en ella, permiten la detección temprana y la corrección de errores y fallas en la construcción de este. Para determinar una solución, en la etapa del plan de pruebas, es necesario diseñar y desarrollar casos y tareas que abarque todo lo concerniente en el #[i software] como iteraciones, combinaciones, permutaciones, con el fin de determinar cuáles benefician o afectan los módulos o subsistemas. En ese orden de ideas, se indagan las operaciones que realiza el producto, se determinan los casos, ponerlos en primera medida y finalmente, realizar programas automatizados para gestionar las tareas de pruebas.
+          p.mb-0 La gestión de la calidad es un componente de solución de #[em software] que junto a las distintas actividades que se realizan en ella, permiten la detección temprana y la corrección de errores y fallas en la construcción de este. Para determinar una solución, en la etapa del plan de pruebas, es necesario diseñar y desarrollar casos y tareas que abarque todo lo concerniente en el #[em software] como iteraciones, combinaciones, permutaciones, con el fin de determinar cuáles benefician o afectan los módulos o subsistemas. En ese orden de ideas, se indagan las operaciones que realiza el producto, se determinan los casos, ponerlos en primera medida y finalmente, realizar programas automatizados para gestionar las tareas de pruebas.
 
 
 </template>

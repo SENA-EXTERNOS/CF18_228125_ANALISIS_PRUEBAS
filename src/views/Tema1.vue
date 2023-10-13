@@ -12,9 +12,9 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/tema1-img-01.svg')})`}"
       )(data-aos="flip-right")
       .bloque-texto-g__texto.bloque-txt-1.p-2(data-aos="fade-left")
-        p.mb-0 Existen definiciones y terminologías asociadas a las pruebas de #[i software] que enmarcan los conocimientos, acontecimientos y prácticas que se realizan para la puesta en marcha de este, luego de la fase de producción o creación del producto que determina la solución a las necesidades del cliente, a partir de los requerimientos establecidos y solicitados. La realización de pruebas se hace con base en la búsqueda de errores generados en los sistemas desarrollados, no solo con el fin de determinar el buen funcionamiento del sistema y pensar que está listo para la puesta en marcha, sino que todo aplicativo desarrollado genera errores de cualquier índole, por lo tanto, es indispensable tenerlo presente y realizar las pruebas correspondientes.
+        p.mb-0 Existen definiciones y terminologías asociadas a las pruebas de #[em software] que enmarcan los conocimientos, acontecimientos y prácticas que se realizan para la puesta en marcha de este, luego de la fase de producción o creación del producto que determina la solución a las necesidades del cliente, a partir de los requerimientos establecidos y solicitados. La realización de pruebas se hace con base en la búsqueda de errores generados en los sistemas desarrollados, no solo con el fin de determinar el buen funcionamiento del sistema y pensar que está listo para la puesta en marcha, sino que todo aplicativo desarrollado genera errores de cualquier índole, por lo tanto, es indispensable tenerlo presente y realizar las pruebas correspondientes.
           
-    p.mt-3 A continuación, conozca algunas de las terminologías más utilizadas al realizar pruebas de #[i software]:
+    p.mt-3 A continuación, conozca algunas de las terminologías más utilizadas al realizar pruebas de #[em software]:
 
     .puntos-calientes-t1.mt-3.mb-3
       ImagenInfografica.color-primario
@@ -23,25 +23,25 @@
             img(src='@/assets/curso/temas/tema1/tema1-img-02.svg', alt='Texto que describa la imagen')
 
         .tarjeta.color-acento-contenido.p-3(x="49.9%" y="9%" numero="+")
-          p El producto #[i software] puede adecuarse a distintos entornos a los cuales sea sometido sin la necesidad de utilizar factores externos para este fin, solo con las funcionalidades y características por las cuales fue desarrollado.
+          p El producto #[em software] puede adecuarse a distintos entornos a los cuales sea sometido sin la necesidad de utilizar factores externos para este fin, solo con las funcionalidades y características por las cuales fue desarrollado.
 
         .tarjeta.color-acento-contenido.p-3(x="59.6%" y="12.2%" numero="+")
-          p Tener en cuenta los riesgos en todo el proceso del desarrollo del #[i software] para saber afrontar y manejar los errores y fallas.
+          p Tener en cuenta los riesgos en todo el proceso del desarrollo del #[em software] para saber afrontar y manejar los errores y fallas.
 
         .tarjeta.color-acento-contenido.p-3(x="68%" y="21%" numero="+")
-          p Evaluación realizada de forma independiente al desarrollo, para determinar los requerimientos y especificaciones del #[i software] a partir de los estándares y normas establecidos.
+          p Evaluación realizada de forma independiente al desarrollo, para determinar los requerimientos y especificaciones del #[em software] a partir de los estándares y normas establecidos.
 
         .tarjeta.color-acento-contenido.p-3(x="72.9%" y="33.8%" numero="+")
-          p Ayudan al proceso de las pruebas del #[i software] y todo lo relacionado al diseño, puesta en marcha, gestión y comprobación de pruebas.
+          p Ayudan al proceso de las pruebas del #[em software] y todo lo relacionado al diseño, puesta en marcha, gestión y comprobación de pruebas.
 
         .tarjeta.color-acento-contenido.p-3(x="74.3%" y="49.3%" numero="+")
           p Es el grado de satisfacción por el cual un sistema de información sometido a varios procesos de funcionalidad, cumple los requisitos y necesidades solicitados por el cliente.
 
         .tarjeta.color-acento-contenido.p-3(x="71%" y="64%" numero="+")
-          p Es la capacidad del #[i software] de utilizar recursos y ambientes que son compartidos a través de otra plataforma tecnológica diseñada para otro fin y que son independientes.
+          p Es la capacidad del #[em software] de utilizar recursos y ambientes que son compartidos a través de otra plataforma tecnológica diseñada para otro fin y que son independientes.
 
         .tarjeta.color-acento-contenido.p-3(x="64%" y="75%" numero="+")
-          p Es la capacidad del #[i software] de cumplir con las especificaciones y estándares establecidos por los entes reguladores y que son claves para darle respuesta al cliente y satisfacer sus necesidades.
+          p Es la capacidad del #[em software] de cumplir con las especificaciones y estándares establecidos por los entes reguladores y que son claves para darle respuesta al cliente y satisfacer sus necesidades.
 
         .tarjeta.color-acento-contenido.p-3(x="55%" y="81.6%" numero="+")
           p Es un procedimiento en el cual se realiza análisis, se eliminan las fallas en el sistema y se solventan algunos errores generados en el proceso de desarrollo.
@@ -50,10 +50,10 @@
           p Está relacionado con el rendimiento y uso óptimo del sistema, al igual que las capacidades generales.
 
         .tarjeta.color-acento-contenido.p-3(x="35.7%" y="75%" numero="+")
-          p Capacidad para relacionar componentes del #[i software] para hacerlo más complejo y funcional, con más capacidades.
+          p Capacidad para relacionar componentes del #[em software] para hacerlo más complejo y funcional, con más capacidades.
 
         .tarjeta.color-acento-contenido.p-3(x="28.8%" y="63.8%" numero="+")
-          p Permite al #[i software] relacionarse o comunicarse con otros componentes o aplicaciones.
+          p Permite al #[em software] relacionarse o comunicarse con otros componentes o aplicaciones.
 
         .tarjeta.color-acento-contenido.p-3(x="25.7%" y="49.5%" numero="+")
           p Permite a los distintos usuarios su administración y uso, dependiendo el rol que tengan para tener acceso a los diferentes módulos del sistema.
@@ -62,7 +62,7 @@
           p Capacidad del sistema para enfrentar entornos hostiles y ambientes distintos a los manejados de forma normal, en el cual opera de forma consistente y adecuadamente.	
 
         .tarjeta.color-acento-contenido.p-3(x="32.2%" y="21%" numero="+")
-          p Capacidad del #[i software] de prevenir inconsistencias y fallos. 
+          p Capacidad del #[em software] de prevenir inconsistencias y fallos. 
 
         .tarjeta.color-acento-contenido.p-3(x="40.1%" y="12.3%" numero="+")
           p Facilidad para usar el sistema, entendible y aprendido por todos los usuarios en distintos campos específicos.
@@ -122,7 +122,7 @@
     .row.justify-content-center.align-items-center
       .col-lg-9
         .cajon.color-secundario.p-4.mt-4
-          p Un sitio o web o cualquier tipo de aplicación que se desarrolle e implemente, también debe cumplir con la utilización de programas de seguimiento de errores, para asegurar el funcionamiento óptimo del #[i software].
+          p.mb-0 Un sitio o web o cualquier tipo de aplicación que se desarrolle e implemente, también debe cumplir con la utilización de programas de seguimiento de errores, para asegurar el funcionamiento óptimo del #[em software].
 
 </template>
 
