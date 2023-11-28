@@ -107,7 +107,7 @@ export default {
         'Engineering Lifecycle Management – IBM. (2021). <em>Evaluación de riesgos.</em>',
       tipo: 'Página web',
       link:
-        'https://www.ibm.com/docs/es/elm/6.0.2?topic=artifacts-assessing-risk',
+        'https://www.ibm.com/docs/es/engineering-lifecycle-management-suite/lifecycle-management/7.0.3',
     },
     {
       tema: 'Contexto de la solución',
